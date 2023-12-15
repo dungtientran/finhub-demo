@@ -1,0 +1,48 @@
+.fund-body {
+    padding: 95px 0 0;
+    place-items: center;
+}
+
+.fund-definition {
+    margin-top: 20px;
+}
+
+.fund-table-header {
+    background-color: #F5FCFA;
+    border-bottom: none !important;
+}
+
+.fund-table-text {
+    padding-left: 20px !important;
+    border-bottom: none !important;
+    vertical-align: text-top;
+    white-space: pre-wrap;
+}
+
+.fund-name {
+    /* color: #FF8700; */
+    font-weight: bold;
+}
+
+.fund-adv-icon {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.fund-adv {
+    display: flex;
+    flex-direction: row;
+}
+
+.fund-subtitle {
+    font-size: large;
+}
+
+.fund-adv-box {
+    margin-bottom: 20px;
+}
+
+.fun-table {
+    padding-left: 0px;
+    padding-right: 0px;
+}

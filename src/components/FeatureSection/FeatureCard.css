@@ -1,0 +1,31 @@
+.feature-card {
+    display: flex;
+    align-items: center;
+    /* padding-right: 30px; */
+    /* width: 80%; */
+}
+
+.card-heading {
+    /* font-size: 40px; */
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card-image {
+    padding-right: 30px;
+    width: 120px;
+}
+
+.card-subtitle {
+    width: 269px;
+}
+
+@media (max-width: 1190px) {
+    .card-subtitle {
+        width: auto;
+    }
+}
+
+
+@media (max-width: 992px) {}

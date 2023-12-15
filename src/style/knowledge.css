@@ -1,0 +1,46 @@
+.title_knowledge {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text_knowledge {
+    font-size: 17;
+    font-weight: 400;
+    width: 40%;
+    text-align: start;
+}
+
+.box_text_knowledge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_title_accordion {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box_knowledge button {
+    padding: 30px !important;
+}
+
+.text_title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.box_knowledge h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text_body {
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+}
+
+.knowledge_body {
+    padding-bottom: 20px !important;
+}

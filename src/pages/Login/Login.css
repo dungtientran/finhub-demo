@@ -1,0 +1,36 @@
+.login-wrapper{
+    background-color: #F5FCFA;
+    min-height: 100vh;
+}
+
+.card-wrapper{
+    padding-top: 60px;
+}
+
+.login-card{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.login-form{
+
+}
+
+.btn-signin{
+    width: 100%;
+}
+
+.password-toogle-icon {
+    /* position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: 1000; */
+    cursor: pointer;
+}
+
+/* .group-password{
+    width: 250px;
+} */

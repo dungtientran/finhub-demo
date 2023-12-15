@@ -1,0 +1,93 @@
+.robo-section {
+    place-items: center;
+    /* margin-bottom: 50px; */
+    height: 669px;
+    padding-top: 60px;
+}
+
+.robo-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.robo-container {
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto;
+}
+
+.robo-heading {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.robo-body {
+    font-size: large;
+    padding-top: 30px;
+}
+
+.robo-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 522px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.robo-advisor {
+    font-weight: bold;
+    color: #FF8700;
+}
+
+
+
+.robo-image-wrapper {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    width: 388px;
+    height: 103px;
+}
+
+
+
+.graph {
+    width: 100%;
+}
+
+@media (max-width: 1190px) {
+    .robo-section {
+        height: auto;
+        padding-top: 30px;
+
+    }
+
+    .robo-description {
+        width: auto;
+        margin-bottom: 60px;
+    }
+
+    .robo-image-wrapper {
+        margin: 0 auto;
+
+    }
+}
+
+
+@media (max-width: 992px) {
+    .robo-section {
+        height: auto;
+    }
+
+    .robo-image-wrapper {
+        width: auto;
+
+    }
+
+}

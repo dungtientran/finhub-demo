@@ -1,0 +1,31 @@
+.pagination_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.page_current {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text_current {
+    background-color: #EEF2F5;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-arrow-prev,
+.pagination-arrow-next {
+    cursor: pointer;
+}

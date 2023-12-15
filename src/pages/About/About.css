@@ -1,0 +1,65 @@
+.mission-icon {
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mission-icon-wrap {
+    text-align: center;
+}
+
+.mission-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.register-step-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    /* width: 250px; */
+    /* gap: 20px; */
+}
+
+.about-heading {
+    align-items: center;
+}
+
+.mission-border {
+    height: 300px;
+}
+
+.company-value {
+    text-align: center;
+}
+
+.company-mission {
+    text-align: center;
+}
+
+.value-icon {
+    height: 70px;
+    margin-top: 10px;
+}
+
+.company-intro {
+    /* background-color: #F5FCFA; */
+    height: 100vh;
+}
+
+.value-name {
+    padding-top: 15px;
+    /* padding-bottom: 5px; */
+    font-weight: bold;
+    font-size: large;
+    /* height: 74px; */
+}
+
+.about-wrapper {
+    white-space: pre-line;
+    /* height: auto; */
+    padding-bottom: 150px;
+}

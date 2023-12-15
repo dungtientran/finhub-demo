@@ -1,0 +1,28 @@
+.terms-wrapper{
+    background-color: #F5FCFA;
+    min-height: 100vh;
+}
+
+.terms-heading{
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.terms-users-content{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:left;
+    white-space: pre-line;
+
+}
+
+.terms-users-content-head{
+    font-weight: bold;
+}
+
+.terms-users-bullet-point{
+    margin-left: 20px;
+}
+

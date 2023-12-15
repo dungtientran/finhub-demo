@@ -1,0 +1,133 @@
+.hero-section {
+    padding: 70px 0 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    place-items: center;
+    height: 679px;
+    background-size: cover;
+    background-position: 10%;
+    background-repeat: no-repeat;
+}
+
+.box_hero-image-wrapper {
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+}
+
+.hero-image-wrapper {
+    width: 513px;
+    height: 486px;
+}
+
+.hero-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hero-heading {
+    margin-top: 30px;
+    width: 628px;
+}
+
+.hero-subtitle {
+    /* margin-top: 20px; */
+    /* padding-right: 8%; */
+    width: 622px;
+    text-align: justify;
+}
+
+.hero-download-wrapper {
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+}
+
+.btn-app {
+    border: none !important;
+    width: 200px;
+    height: 59px;
+    background: transparent;
+    padding: 0 !important;
+}
+
+.hero-google-play-image {
+    /* height: 40px; */
+    /* margin-right: 50px; */
+    /* margin-bottom: 20px; */
+}
+
+.hero-app-store-image {
+    /* height: 40px; */
+    /* margin-bottom: 20px; */
+}
+
+.btn-app:hover .hero-google-play-image {
+    transform: scale(1.03);
+}
+
+.btn-app:hover:hover .hero-app-store-image {
+    transform: scale(1.03);
+}
+
+.subscribe-title {
+    font-weight: bold;
+}
+
+/* @media only screen and (max-width: 992px) {
+    .hero-heading {
+        margin-top: -50px;
+    }
+} */
+
+
+@media (max-width: 1190px) {
+
+    .hero-text-wrapper {
+        gap: 30px;
+    }
+
+    .hero-subtitle {
+        width: auto;
+    }
+
+    .hero-image-wrapper {
+        width: 480px;
+    }
+
+    .hero-download-wrapper {
+        gap: 30px;
+    }
+
+    .btn-app {
+        width: 180px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-section {
+        height: auto;
+    }
+
+    .hero-heading {
+        width: auto;
+    }
+
+    .box_hero-image-wrapper {
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .hero-image-wrapper {
+        width: 400px;
+
+    }
+
+    .btn-app {
+        width: 140px;
+    }
+}

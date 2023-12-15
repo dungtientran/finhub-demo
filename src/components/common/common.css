@@ -1,0 +1,30 @@
+.btn {
+    border-color: #FF8700;
+    background-color: #FF8700;
+    width: 100px;
+    color: #FFF;
+}
+
+.btn:hover {
+    border-color: #FF8700;
+    background-color: #E28531;
+    color: #FFF;
+}
+
+.btn:focus {
+    /* border-color: #FF8700; */
+    background-color: #E28531;
+    box-shadow: none;
+}
+
+.btn {
+    border-color: #FF8700;
+    background-color: #FF8700;
+    width: 120px;
+    color: #FFF;
+    /* margin-bottom: 40px; */
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(24, 112, 245, 0.4);
+}

@@ -1,0 +1,33 @@
+.ready-section {
+    background-color: #F5FCFA;
+    height: 350px;
+}
+
+.ready-heading {
+    padding-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ready-heading-2 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-wrapper {
+    padding-bottom: 10px;
+}
+
+.text-fin {
+    color: #FF8700;
+    /* font-weight: bold; */
+}
+
+@media (max-width: 1190px) {
+    .ready-section {
+        height: auto;
+        padding: 30px 0;
+    }
+
+}
