@@ -124,18 +124,18 @@ export default function NavbarComp({ btnVisible }) {
                                 title={NavbarLanguage}
                             >
                                 <NavDropdown.Item onClick={() => changeLanguageHandler("en")}>
-                                    <img
+                                    {/* <img
                                         className='flag-icon'
                                         src="./assets/UK_flag.png"
                                         alt="UK Flag"
-                                    />
+                                    /> */}
                                     English</NavDropdown.Item>
                                 <NavDropdown.Item onClick={() => changeLanguageHandler("vi")}>
-                                    <img
+                                    {/* <img
                                         className='flag-icon'
                                         src="./assets/Vietnam_flag.png"
                                         alt="VN Flag"
-                                    />
+                                    /> */}
                                     Tiếng Việt</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
